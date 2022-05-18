@@ -8,5 +8,12 @@
 
 ## Problem1. Compute the number of ‘prime numbers’ between 1 and 200000.
 
+	At cmd,
+	(1) gcc prob1.c -fopenmp
+	(2) a.exe <schedule option from 0 to 3> <number of threads>
 
 ## Problem2. Parallel PI calculation.
+
+	At cmd,
+	(1) gcc prob2.c -fopenmp
+	(2) a.exe <schedule option from 0 to 3> <chunk size> <number of threads>
